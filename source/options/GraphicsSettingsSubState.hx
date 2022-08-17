@@ -41,7 +41,7 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 			'If checked, disables some background details,\ndecreases loading times and improves performance.', //Description
 			'lowQuality', //Save data variable name
 			'bool', //Variable type
-			false); //Default value
+			true); //Default value
 		addOption(option);
 
 		var option:Option = new Option('Anti-Aliasing',
@@ -106,3 +106,17 @@ class GraphicsSettingsSubState extends BaseOptionsMenu
 		}
 	}
 }
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
